@@ -43,21 +43,30 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
 > **_Question :_** Quel filtre avez-vous utilisé
 > 
 > **_Réponse :_** 
+>
+> wlan.fc.type_subtype == 0x0004
 
 ---
 > **_Question :_** Quel est l’adresse MAC de la cible ?
 > 
 > **_Réponse :_** 
+>
+> fc:f1:36:22:49:74
 
 ---
 > **_Question :_** Quel est le nom du constructeur de l’interface sans fils de la cible ?
 > 
 > **_Réponse :_** 
+>
+> Samsung
 
 ---
 > **_Question :_** Quel autres endroits la cible a-t-elle probablement visités ?
 > 
 > **_Réponse :_** 
+>
+> Une Migros, l'aréoport de Genève et "Fleur de Pains".
+> ![cible_visites](images/cible_visites.png)
 
 ---
 
