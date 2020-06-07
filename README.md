@@ -118,8 +118,6 @@ Maintenant que vous avez la clé WEP, configurez la dans Wireshark afin de déch
 
 ---
 > **_Montrer une capture d'écran de l'obtention de la clé WEP_**
-> 
-> **_Capture ici_** 
 >
 > ![aircrack_WEP_key](images/aircrack_WEP_key.png)
 
@@ -129,6 +127,7 @@ Maintenant que vous avez la clé WEP, configurez la dans Wireshark afin de déch
 > **_Réponse :_** 
 >
 > Oui, un exemple si-dessous.
+>
 > ![http_credentials](images/http_credentials.png)
 
 ---
