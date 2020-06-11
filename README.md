@@ -1,3 +1,5 @@
+Auteurs : Eric Noel, Diluckshan Ravindranathan
+
 # Teaching-HEIGVD-SRX-2020-Laboratoire-WiFi
 
 Vous aurez besoin de ``Wireshark`` et du logiciel ``aircrack-ng`` pour ce laboratoire. 
