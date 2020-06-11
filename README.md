@@ -211,6 +211,8 @@ Nous avons enlevé une seule trame (choisie stratégiquement) du fichier de capt
 > **_Question :_** Est-ce que vous arrivez à refaire l'exercice ? Pourquoi ou pourquoi pas ?
 > 
 > **_Réponse :_** 
+>
+> Non, nous n'arrivons pas à le refaire car wireshark n'arrive pas à déchiffrer les trames.
 
 ---
 > **_Question :_** Sur la base de votre réponse précédente, arrivez-vous à déduire quelle trame a été effacée ?
@@ -218,3 +220,6 @@ Nous avons enlevé une seule trame (choisie stratégiquement) du fichier de capt
 > 
 > **_Réponse :_** 
 > 
+> Oui, il s'agit de la deuxième trame du "4-way handshake" du protocole EAPOL comme montré dans la capture ci-dessous. 
+>
+> ![WAP2](images/WAP2.png)
