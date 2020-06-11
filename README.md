@@ -183,22 +183,22 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 
 > **_Question :_** Combien de temps avez-vous attendu pour obtenir la passphrase WPA ?
 > 
-> **_Réponse :_** 
+> **_Réponse :_** on a attendu environ 4 secondes
+
+
 
 ---
 > **_Montrer une capture d'écran de l'obtention de la passphrase WPA_**
 > 
-> **_Capture ici_** 
+> ![dechiffrement](images/dechiffrement.png)
 
----
 > **_Question :_** Lors de la capture, la cible a fait un « ping » sur un serveur. Arrivez-vous à dire de quel serveur il s’agit ?
 
-> 
 > **_Réponse :_** 
 > 
-> Adresse IP du serveur : ?
->
-> Nom de Domaine : ?
+> Adresse IP du serveur : ? 31.13.64.35
+> 
+>Nom de Domaine : ? facebook.com
 
 
 
