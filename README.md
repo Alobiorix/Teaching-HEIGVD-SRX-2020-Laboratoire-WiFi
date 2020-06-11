@@ -4,7 +4,7 @@ Vous aurez besoin de ``Wireshark`` et du logiciel ``aircrack-ng`` pour ce labora
 
 Si vous utilisez une distribution Kali, tout est déjà pré-installé. Pour la version Windows du logiciel ``aircrack-ng``ou pour son installation sur d'autres distributions, référez-vous au
 [site web aircrack-ng](https://aircrack-ng.org) et/ou au gestionnaire de paquets de votre distribution.
- 
+
 # Identification d'un dispositif
 
 ## Introduction
@@ -154,8 +154,14 @@ Nous utiliserons Wireshark pour trouver l’authentification WPA contenue dans l
 * Analyser les messages du 4-way handshake. En particulier, essayer de trouver les chiffres aléatoires (Nonces) échangés entre le client et l’AP.
 
 > **_Fournir une capture d'écran des chiffres aléatoires_**
-> 
+>
 > **_Capture ici_** 
+>
+> ![authenti1](images/authenti1.png)
+>
+> 
+>
+> ![authenti2](images/authenti2.png)
 
 ---
 
@@ -166,7 +172,7 @@ Nous allons nous servir de l’outil aircrack-ng et d’un dictionnaire pour ret
 
 * Copier [le dictionnaire](files/french_dico.txt) sur votre machine locale 
 * Utilisez aircrack-ng en ligne de commandes pour cracker la passphrase du réseau WPA avec le même [fichier de capture chiffrée avec WPA](files/coursWLAN-WPA.cap) que vous avez déjà copié.
- 
+
 ```
 aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 ```
